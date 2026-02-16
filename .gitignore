@@ -1,0 +1,15 @@
+# Data and Models (Never push these!)
+data/
+models/
+*.ckpt
+*.parquet
+*.csv
+
+# Environment & Keys
+.env
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# System files
+.DS_Store

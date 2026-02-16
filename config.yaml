@@ -1,0 +1,13 @@
+project_name: "Amex-Agentic-Risk-v1"
+model:
+  max_epochs: 10
+  batch_size: 64
+  learning_rate: 0.001
+  prediction_length: 1
+  context_length: 12
+agents:
+  gemini_model: "gemini-1.5-pro"
+  risk_threshold: 0.75  # Trigger compliance review above this
+paths:
+  raw_data: "data/train_data.csv"
+  model_save: "models/tft_checkpoint.ckpt"
